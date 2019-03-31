@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+    * Why do you really want to see this our source code? and why 
+    * Don't you want to calm down and learn stuff (coding) yourself
+    * Sincerely people like you really don't pay to learn stuff, but
+    * rather go-around copying other people's work..
+    * Our design is simple (so simple) .. Go and learn Bootstrap Now!!
+    * We used Python for our backend, can you
+    * copy those ones too? please can you now get-off this page?
+  -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>{%block title%}Reachabl-{%endblock%}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link rel="icon" href="{{url_for('static', filename='img/loog.png')}}">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet"><style>@font-face{font-family: all;src:url('font/JosefinSans-Regular.woff')format('woff');}*{font-family:all !important;}.btn-primaryi{background:#ff4500;color:#fff;}.bg-secondaryi{background: -webkit-gradient(linear,left bottom,left top,from(#ff4500),to(#ff6a00));background: linear-gradient(0deg,#ff6a00 0,#ff4500 100%);}</style>
+
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.min.css" rel="stylesheet">
+
+</head>
+
+<body style="background:lavender">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="{{url_for(homepage)}}">Youkiip Inc.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./lamar.php?lamar=register">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./lamar.php?lamar=login">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./lamar.php?lamar=terms">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./lamar.php?lamar=about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./lamar.php?lamar=coc">Code of Conduct</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+              <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid" src="img/conf.svg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Agile Software Engineers!</h2>
+            <p align="justify">Youkiip is a software company with Young software engineers that can showcase their solution and also release full time documentation of designs and products, furthermore we also enhance the use of Deep learning to Develop and manage Core software products and the Likes. Also we operate as Distributed software engineers which means that we are ready to flow to your team to aid developing your desired concept or idea.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </header>
